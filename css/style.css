@@ -1,0 +1,393 @@
+*{margin: 0;
+padding: 0;
+font-family: sans-serif;}
+/*fixer*/
+.fixer{
+	display: flex;
+}
+h1 {
+	text-align: center;
+	font-size: 5vw;
+	font-family: sans-serif;
+	padding-top: 5vw;
+	color: red;
+}
+.top-bar {
+
+	
+	background-color: black;
+	display: flex;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	
+}
+
+.logo {
+	color: #fff;
+	flex: 1;
+	font-size: 3vw;
+	padding: 2vw;
+	
+}
+.menu {
+	
+	flex:3;
+}
+.menu ul {
+	
+	display: flex;
+	list-style: none;
+	margin-top: 2.2vw;
+	flex-flow: row wrap;
+}
+.menu ul li {
+	flex: 1;
+	text-align: center;
+}
+.menu ul li a {
+	color: #fff;
+	font-size: 2.45vw;
+	text-decoration: none;
+}
+.menu  ul li a:hover {
+	color: red;
+}
+.alll {
+	background-color: grey;
+}
+/*hero */
+.hero {
+	
+	background-image: url(../images/carry.jpg);
+	width: 100%;
+	background-size: 100% 100%;
+}
+.hero-text {
+	display: flex;
+	padding: 15% 0;
+}
+.hero-text-items {
+	color: red;
+	margin: auto;
+	padding-top: 20%;
+	
+	text-align: center;
+	width: 50%;
+} 
+.hero-text-items h1 {
+	font-size: 3.5vw;
+	margin-bottom: 2vw;
+	text-transform: uppercase;
+}
+.hero-text-items p {
+	font-size: 2vw;
+	margin-bottom: 2vw;
+}
+.hero-text-items a {
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+/*column*/
+.main-content {
+
+	
+	display: flex;
+	flex-flow: row wrap;
+	padding: 5% 0;
+} 
+.main1{
+	
+	flex: 1;
+	padding: 3%;
+	text-align: center;
+	align-items: center;
+}
+.main1 p {
+	text-align: left;
+}
+/*.main1 p {
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5vw;
+}*/
+.alll p{
+	
+	font-size: 2.5vw;
+	
+
+}
+.alll a{
+	text-decoration:  none;
+	color: red;
+}
+
+.main1 h2 {
+	margin-bottom: 2.5vw;
+	font-size: 2.5vw;
+}
+/*.main1 img {
+	width: 100%;
+
+}*/
+/*register*/
+.contact-items {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+#contact{
+	background: url(../images/klore.jpg) no-repeat;
+	padding: 5vw 0;
+	background-size: 100% 100%;
+	
+}
+.contact-items h2 {
+	padding-top: 5vh;
+	color: #fff;
+	font-size: 5vw;
+	margin-bottom: 8vh;
+}
+.contact-items input[type="text"]{
+	border-radius: 2vw;
+	margin-bottom: 1vh;
+	padding: 1.5vw;
+	width: 55%;
+}
+.contact-items textarea{
+	border-radius: 1vw;
+	height: 10vh;
+	padding: 1.2vw;
+	width:55%;
+	margin-bottom: 3vw;
+
+}
+.contact-items h2{
+	color: red;
+}
+.contact-items a{
+	text-decoration: none;
+	font-size: 2vw;
+	color: #fff;
+	background-color: #000;
+}
+.resizeimage {
+	
+}
+/*footer*/
+/*.low-bar {
+bottom: 0;
+background-color: #000;
+width: 100%;
+
+} 
+.foot {
+	color: #fff;
+	flex: 1;
+	font-size: 3vw;
+	padding: 1.6vw;
+	text-transform: uppercase;
+	text-align: center;
+}
+.links {
+	display: flex;
+	list-style: none;
+	flex-flow: row wrap;
+}
+.links li {
+	flex: 1;
+	text-align: center;
+}
+/*.links li a img {
+	
+	width: 3.5vw;
+	height: 3.5vw;
+	margin-bottom: 3.6vw;
+}
+/*@media screen and (min-width:600px){
+	.top-bar{
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+		position: fixed;
+	}
+
+	
+	.low-bar {
+		flex-direction: column;
+		text-align: center;
+	}
+	.menu ul li{
+		padding: 0.3vw;
+	}
+	.hero-text-items{
+		font-size: 3vw;
+	}
+	.logo{
+		padding: 1.6vw 0 0;
+	}
+	/*.menu ul{
+		flex-direction: column;
+		margin-top: 0;
+	}
+
+	.main-content{
+		flex-direction: column;
+	}
+	.contact-items textarea{
+	border-radius: 1vw;
+	height: 10vh;
+	padding: 1.2vw;
+	width:55%;
+	margin-bottom: 5vw;
+
+}
+	#contact{
+	background: url(../images/klore.jpg) no-repeat;
+	padding: 5vw 0;
+	background-size: 100% 100%;
+	height: 60vh;
+}
+}*/
+#left {
+	text-align: left;
+}
+.footer{
+	display: flex;
+	background-color: black;
+	width: 100%;
+}
+.footer-box1{
+	flex: 3;
+	color: #808080;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	border-right: 2px solid rgba(105,105,105,0.2);
+}
+.footer-box1 a{
+	color: #a2a2a2;
+	text-decoration: none;
+	text-align: center;
+	text-align: center;
+}
+
+.footer-box2{
+	flex: 3;
+	color: #808080;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	border-right: 2px solid rgba(105,105,105,0.2);
+}
+.footer-box2 h4{
+	color: #efefef;
+	text-align: left;
+}
+
+.footer-box2 p{
+	color: #efefef;
+	text-align: left;
+}
+
+.footer-box3{
+	flex: 3;
+	color: #808080;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.footer-box3 h3 {
+	padding-bottom: 1vw;
+}
+/*@media screen and (max-width:700px)  {
+	.footer{
+		display: flex;
+		flex-flow: column wrap;
+	}
+	.footer-box1{
+		color: #808080;
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		border-bottom: 2px solid rgba(105,105,105,0.2);
+	}
+	.footer-box2{
+		color: #808080;
+		padding: 10px;
+box-sizing: border-box;
+		text-align: center;
+		border-bottom: 2px solid rgba(105,105,105,0.2);
+	}
+	.footer-box2 h4{
+		color: #efefef;
+		text-align: center;
+	}
+
+	.footer-box2 p{
+		color: #efefef;
+		text-align: center;
+	}		
+}*/
+#mid {
+	text-align: center;
+}
+@media screen and (max-width: 550px){
+	.resizeimage {
+		height: 50vw;
+		width: 70vw;
+	}
+
+}
+	
+
+@media screen and (max-width: 400px){
+	.top-bar{
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+		position: fixed;
+	}
+
+	
+	footer {
+		flex-direction: column;
+		text-align: center;
+		font-size: 2vw;
+	}
+	.menu ul li{
+		padding: 0.3vw;
+	}
+	.hero-text-items{
+		font-size: 3vw;
+	}
+	.logo{
+		padding: 1.6vw 0 0;
+	}
+	/*.menu ul{
+		flex-direction: column;
+		margin-top: 0;
+	}*/
+
+	.main-content{
+		flex-direction: column;
+	}
+	.contact-items textarea{
+	border-radius: 1vw;
+	height: 10vh;
+	padding: 1.2vw;
+	width:55%;
+	margin-bottom: 5vw;
+
+}
+	#contact{
+	background: url(../images/klore.jpg) no-repeat;
+	padding: 5vw 0;
+	background-size: 100% 100%;
+	height: 60vh;
+}
+}
+	
